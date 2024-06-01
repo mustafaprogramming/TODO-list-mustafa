@@ -1,9 +1,9 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from 'chalk';
-console.log(chalk.greenBright.bold(`<===============================================>`));
-console.log(chalk.blueBright.bold(`\n\tWelcome To Mustafa - TODO List\n`));
-console.log(chalk.greenBright.bold(`<===============================================>`));
+console.log(chalk.blue(`\n\n\t     _-^+-^+‾   ◦◦◦◦◦◦        ◦◦◦ ◎ ◉ ◯ ◉ ◎ ◦◦◦        ◦◦◦◦◦◦   ‾+^-+^-_`));
+console.log(chalk.blue(`\t  <==!~~ ☆*: .｡. o(≧ ${chalk.greenBright.bold(` Welcome To Mustafa's  -  TODO List `)} ≦)o .｡.:*☆ ~~!==>`));
+console.log(chalk.blue(`\t     ‾-∨+-∨+_   ◦◦◦◦◦◦        ◦◦◦ ◎ ◉ ◯ ◉ ◎ ◦◦◦        ◦◦◦◦◦◦   _+∨-+∨-‾\n\n`));
 let todolist = [];
 let continuation = true;
 const addTask = async () => {
